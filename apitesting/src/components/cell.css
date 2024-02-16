@@ -1,0 +1,25 @@
+.table-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+}
+
+.table-row {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.table-cell {
+    flex: 1;
+    padding: 8px;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.table-image {
+    max-width: 30px;
+    max-height: 30px;
+    /* object-fit: contain; */
+}
